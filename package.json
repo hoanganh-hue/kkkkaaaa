@@ -1,0 +1,72 @@
+{
+  "name": "vss-complete-project",
+  "version": "1.0.0",
+  "description": "Hệ thống trích xuất dữ liệu VSS (Vietnam Social Security) hoàn chỉnh",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/enhanced_bhxh_lookup.js",
+    "test": "jest",
+    "dev": "nodemon src/enhanced_bhxh_lookup.js",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": [
+    "vss",
+    "bhxh",
+    "vietnam",
+    "social-security",
+    "automation",
+    "data-extraction",
+    "web-scraping"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.0",
+    "nodemon": "^3.1.10",
+    "p-limit": "^6.2.0",
+    "xlsx": "^0.18.5",
+    "puppeteer": "^21.5.2",
+    "playwright": "^1.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "fake-useragent": "^1.0.1",
+    "proxy-agent": "^6.3.1",
+    "tough-cookie": "^4.1.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "fs-extra": "^11.1.1",
+    "dotenv": "^16.3.1",
+    "yaml": "^2.3.4",
+    "winston": "^3.11.0",
+    "progress": "^2.0.3",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "@types/node": "^20.9.5"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimax-agent/vss-complete-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minimax-agent/vss-complete-project/issues"
+  },
+  "homepage": "https://github.com/minimax-agent/vss-complete-project#readme"
+}
