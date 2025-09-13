@@ -365,10 +365,3 @@ cp -r data data_backup_$(date +%Y%m%d)
 
 Dự án này được phát triển cho mục đích nghiên cứu và giáo dục. Vui lòng sử dụng có trách nhiệm và tuân thủ pháp luật.
 
-## 👨‍💻 Tác Giả
-
-Được phát triển bởi **MiniMax Agent** - Hệ thống AI hỗ trợ tự động hóa và phân tích dữ liệu.
-
----
-
-*Cập nhật lần cuối: 2025-09-13*
